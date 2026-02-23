@@ -135,13 +135,13 @@ export const CapabilitiesPage: React.FC<CapabilitiesPageProps> = ({ onBack }) =>
                             <div className="w-3 h-3 rounded-full bg-green-500"></div>
                         </div>
                         <div className="space-y-2 opacity-90">
-                            <p>> Connecting to SAP R/3...</p>
-                            <p className="text-white">> Login Successful.</p>
-                            <p>> Reading Table T001...</p>
-                            <p>> Copying 450 records to Clipboard.</p>
-                            <p>> Opening Excel...</p>
-                            <p>> Paste Data.</p>
-                            <p className="text-blue-400">> Process Complete (1.2s).</p>
+                            <p>&gt; Connecting to SAP R/3...</p>
+                            <p className="text-white">&gt; Login Successful.</p>
+                            <p>&gt; Reading Table T001...</p>
+                            <p>&gt; Copying 450 records to Clipboard.</p>
+                            <p>&gt; Opening Excel...</p>
+                            <p>&gt; Paste Data.</p>
+                            <p className="text-blue-400">&gt; Process Complete (1.2s).</p>
                             <span className="animate-pulse">_</span>
                         </div>
                      </div>
@@ -270,7 +270,7 @@ export const CapabilitiesPage: React.FC<CapabilitiesPageProps> = ({ onBack }) =>
                          </div>
                          <div className="w-full md:w-1/2 order-2 md:order-3">
                              <h4 className="text-xl font-bold text-apple-black mb-2">2. Orquestación</h4>
-                             <p className="text-apple-gray text-sm">El agente desglosa la tarea: Acceder a Salesforce > Filtrar mes actual > Exportar CSV > Acceder a Banco > Descargar extracto > Consolidar en Excel > Generar Slide.</p>
+                             <p className="text-apple-gray text-sm">El agente desglosa la tarea: Acceder a Salesforce &gt; Filtrar mes actual &gt; Exportar CSV &gt; Acceder a Banco &gt; Descargar extracto &gt; Consolidar en Excel &gt; Generar Slide.</p>
                          </div>
                      </ScrollReveal>
 
