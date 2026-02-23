@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blyndforce | Inteligencia Soberana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Helvetica', 'Arial', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"'],
+            },
+            colors: {
+              'apple-black': '#1D1D1F',
+              'apple-gray': '#86868b',
+              'apple-bg-gray': '#F9FAFB',
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 1s ease-out forwards',
+              'gradient-x': 'gradientX 3s linear infinite',
+              'glow-pulse': 'glowPulse 3s ease-in-out infinite',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              gradientX: {
+                '0%': { 'background-position': '0% 50%' },
+                '100%': { 'background-position': '200% 50%' },
+              },
+              glowPulse: {
+                '0%, 100%': { filter: 'drop-shadow(0 0 2px rgba(175, 82, 222, 0.1))' },
+                '50%': { filter: 'drop-shadow(0 0 15px rgba(175, 82, 222, 0.5))' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Smooth scrolling removed to prevent navigation scroll lag */
+      html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      body {
+        background-color: #FFFFFF;
+        color: #1D1D1F;
+      }
+      ::selection {
+        background: #1D1D1F;
+        color: #FFFFFF;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
