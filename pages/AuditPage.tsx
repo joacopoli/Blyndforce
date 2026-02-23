@@ -56,13 +56,13 @@ export const AuditPage: React.FC<AuditPageProps> = ({ onBack, onRequestAgent, on
                  <div className="text-green-500 space-y-2 opacity-90">
                      <p>[TIMESTAMP: 14:00:01.002] <span className="text-white">SESSION_START</span> User: Agent_01</p>
                      <p>[TIMESTAMP: 14:00:01.205] <span className="text-white">AUTH_CHECK</span> Biometric_Pass: True</p>
-                     <p>[TIMESTAMP: 14:00:02.110] <span className="text-white">ACTION</span> Navigate -> "secure.bank.com"</p>
+                     <p>[TIMESTAMP: 14:00:02.110] <span className="text-white">ACTION</span> Navigate -&gt; "secure.bank.com"</p>
                      <p>[TIMESTAMP: 14:00:02.450] <span className="text-blue-400">ENCRYPTION</span> TLS 1.3 Handshake Established</p>
                      <p>[TIMESTAMP: 14:00:03.001] <span className="text-white">INPUT</span> Credential Injection (Vault ID: #992)</p>
                      <p>[TIMESTAMP: 14:00:05.200] <span className="text-yellow-500">SNAPSHOT</span> Screen_Cap_AF22.png saved [HASH: 8x99...]</p>
                      <p>[TIMESTAMP: 14:00:06.000] <span className="text-white">DECISION</span> Parsing Balance Table...</p>
                      <p className="text-gray-500">...</p>
-                     <p>[TIMESTAMP: 14:00:10.550] <span className="text-purple-500">COMPLIANCE</span> Flag: Transaction > $10k detected.</p>
+                     <p>[TIMESTAMP: 14:00:10.550] <span className="text-purple-500">COMPLIANCE</span> Flag: Transaction &gt; $10k detected.</p>
                      <p>[TIMESTAMP: 14:00:10.555] <span className="text-purple-500">COMPLIANCE</span> Action: Alert sent to CFO.</p>
                  </div>
              </div>

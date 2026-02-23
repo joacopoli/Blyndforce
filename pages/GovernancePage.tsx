@@ -95,8 +95,8 @@ export const GovernancePage: React.FC<GovernancePageProps> = ({ onBack, onReques
                  </p>
                  <div className="bg-[#1a1a1a] p-6 rounded-xl border-l-2 border-red-500">
                      <p className="text-sm text-gray-400 font-mono">
-                         > ALERT: Human employee attempting to use unverified PDF converter.<br/>
-                         > BLYNDFORCE ACTION: Process blocked. Redirected to corporate tool.
+                         &gt; ALERT: Human employee attempting to use unverified PDF converter.<br/>
+                         &gt; BLYNDFORCE ACTION: Process blocked. Redirected to corporate tool.
                      </p>
                  </div>
              </ScrollReveal>
